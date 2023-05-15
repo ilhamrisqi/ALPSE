@@ -9,18 +9,58 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack(spacing: 20) {
+                NavigationLink(destination: ManageBudgetView(manageBudget: ManageBudget())) {
+                    Text("Manage Budget")
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
+                
+//                NavigationLink(destination: ) {
+//                    Text("Manage Expense")
+//                        .frame(maxWidth: .infinity)
+//                        .foregroundColor(.white)
+//                        .padding()
+//                        .background(Color.blue)
+//                        .cornerRadius(10)
+//                }
+//                
+//                NavigationLink(destination: ) {
+//                    Text("Expense History")
+//                        .frame(maxWidth: .infinity)
+//                        .foregroundColor(.white)
+//                        .padding()
+//                        .background(Color.blue)
+//                        .cornerRadius(10)
+//                }
+//                
+//                NavigationLink(destination:) {
+//                    Text("Money Converter")
+//                        .frame(maxWidth: .infinity)
+//                        .foregroundColor(.white)
+//                        .padding()
+//                        .background(Color.blue)
+//                        .cornerRadius(10)
+//                }
+//                
+//                NavigationLink(destination: ) {
+//                    Text("Expense Kategori")
+//                        .frame(maxWidth: .infinity)
+//                        .foregroundColor(.white)
+//                        .padding()
+//                        .background(Color.blue)
+//                        .cornerRadius(10)
+//                }
+//                
+                Spacer()
+            }
+            .padding()
+            .navigationTitle("Budget Tracker")
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
