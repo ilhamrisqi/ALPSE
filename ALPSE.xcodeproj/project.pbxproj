@@ -13,6 +13,7 @@
 		146D95F12A11C5C300A05CF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D95F02A11C5C300A05CF2 /* Preview Assets.xcassets */; };
 		146D95F82A11C5E900A05CF2 /* ManageBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D95F72A11C5E900A05CF2 /* ManageBudget.swift */; };
 		146D95FA2A11C65F00A05CF2 /* ManageBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D95F92A11C65F00A05CF2 /* ManageBudgetView.swift */; };
+		1484E6CD2A12346B00228174 /* ManageExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1484E6CC2A12346B00228174 /* ManageExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		146D95F02A11C5C300A05CF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		146D95F72A11C5E900A05CF2 /* ManageBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageBudget.swift; sourceTree = "<group>"; };
 		146D95F92A11C65F00A05CF2 /* ManageBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageBudgetView.swift; sourceTree = "<group>"; };
+		1484E6CC2A12346B00228174 /* ManageExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				146D95E92A11C5C100A05CF2 /* ALPSEApp.swift */,
+				1484E6CC2A12346B00228174 /* ManageExpense.swift */,
 				146D95EB2A11C5C100A05CF2 /* ContentView.swift */,
 				146D95F72A11C5E900A05CF2 /* ManageBudget.swift */,
 				146D95F92A11C65F00A05CF2 /* ManageBudgetView.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1484E6CD2A12346B00228174 /* ManageExpense.swift in Sources */,
 				146D95FA2A11C65F00A05CF2 /* ManageBudgetView.swift in Sources */,
 				146D95F82A11C5E900A05CF2 /* ManageBudget.swift in Sources */,
 				146D95EC2A11C5C100A05CF2 /* ContentView.swift in Sources */,
